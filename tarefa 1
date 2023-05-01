@@ -1,0 +1,13 @@
+algoritmo "ValordaSoma"
+var
+Indice, Soma, K: Inteiro
+inicio
+  Indice <- 13
+  Soma <- 0
+  K <- 0
+  Enquanto (K <= Indice) faca
+           EscrevaL (Soma)
+           K <- K + 1
+           Soma <- Soma + K
+  FimEnquanto
+fimalgoritmo
