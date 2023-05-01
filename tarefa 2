@@ -1,0 +1,24 @@
+algoritmo "FIbo"
+var
+    numero, a, b, c, achou: inteiro
+inicio
+    escreva("Digite um número inteiro: ")
+    leia(numero)
+    a <- 0
+    b <- 1
+    c <- 0
+    achou <- 0
+    enquanto c < numero faca
+        c <- a + b
+        a <- b
+        b <- c
+    fimEnquanto
+    se c = numero entao
+        achou <- 1
+    fimSe
+    se achou = 1 entao
+        escreva("O número ", numero, " pertence à sequência de Fibonacci.")
+    senao
+        escreva("O número ", numero, " não pertence à sequência de Fibonacci.")
+    fimSe
+fimAlgoritmo
